@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0px auto;
+}
+th, td {
+  text-align: center;
+  padding: 12px;
+}
+th {
+  background-color: #252d33;
+  color: white;
+}
+tbody tr:nth-child(odd){
+  background-color: #a3a9b4;
+  color: #fff;
+}
+.rewardsByMonth label{
+  padding: 5px;
+}
+input{
+  margin-bottom: 10px;
+}

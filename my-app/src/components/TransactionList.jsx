@@ -12,7 +12,7 @@ function TransactionList() {
 
   return (
     <div className ="transactionList">
-   <h2> <strong>TransactionList</strong></h2>
+   <h2> <strong>Transaction List</strong></h2>
    
    
     <table>

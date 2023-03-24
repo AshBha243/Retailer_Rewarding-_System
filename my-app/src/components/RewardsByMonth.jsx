@@ -6,15 +6,10 @@ function RewardsByMonth() {
 
     const [month, setMonth] = useState('');
     const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(false);
     const getDataByMonth = (e) => {
-      
         if(e.keyCode === 13) {
-            console.log("key", e.keyCode);
             setMonth(e.target.value);
-            console.log("month", e.target.value);
             setData(getCustomerByMonthTansaction(Transactions, e.target.value));
-            console.log("data", data);
         }      
     }
 
